@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+body.accomodation-body{
+    background-image: url(Photos/pexels-jonas-togo-2907196.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    position: relative; 
+}
+
+body.about-body{
+    background-image: url(Photos/cottage3_8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    position: relative; 
+}
+
+body.index-body{
+    background-image: url(/Photos/mountain_view.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+
+body.contact-body{
+    background-image: url(/Photos/housepart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    position: relative;
+}
+
+img{
+    height: 225px;
+    width: 450px;
+    margin: 0px 30px;
+    position: relative;
+    top: 170px;
+    border-radius: 4px;
+    border: 2px solid white;
+    box-shadow: rgb(194, 194, 194) 0 0 20px;
+}
+
+.room img{
+    box-shadow: none;
+    border: 2px solid white;
+    border-radius: 4px;
+    position: relative;
+    top: -20px;
+    height: 200px;
+    width: 400px;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 110px;
+}
+
+header .logo a {
+    background-image: url(Photos/sb_logo.gif);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    top: -45px;
+    text-indent: -9999px;
+    width: 400px;
+}
+
+section {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.content-container {
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(192, 192, 192, 0.8);
+    top: 125px;
+    display: inline-block;
+    position: relative;
+}
+
+.welcome-message {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.additional-content {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.content-container {
+    margin: 40px;
+    border-radius: 12px;
+    font-size: 48px;
+}
+
+.about-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+h1, .about-container{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px;
+    padding: 25px 0px;
+    list-style-type:none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(60, 60, 60);
+    text-transform: uppercase;
+}
+
+.room-description a{
+    color: white;
+}
+
+.final-information a{
+    color: rgb(60, 60, 60);
+    font-size: 50px;
+}
+
+.final-information a:hover {
+    color: rgb(171, 134, 91);
+}
+
+.navbar {
+    background-color: rgb(171, 134, 91);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+footer {
+    background: black;
+    color: aqua;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px;
+}
+
+.additional-content{
+    color: rgb(0, 0, 0);
+}
+
+.room {
+    display: flex;
+    margin: 20px;
+}
+
+.room img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.room-description {
+    flex-grow: 0;
+    padding: 20px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.room-description h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.room-description p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Additional CSS for the Contact Us section */
+.contact-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #333; /* Adjust the color as needed */
+}
+
+.contact-container h3 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333; /* Adjust the color as needed */
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555; /* Adjust the color as needed */
+}
+
+/* Contact form styles */
+form {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333; /* Adjust the color as needed */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #000000; /* Border color */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555; /* Hover color */
+}
+
+figcaption{
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    width: 100px;
+}
