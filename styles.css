@@ -21,7 +21,7 @@ body.about-body{
 }
 
 body.index-body{
-    background-image: url(/Photos/mountain_view.jpg);
+    background-image: url(Photos/mountain_view.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -31,7 +31,7 @@ body.index-body{
 }
 
 body.contact-body{
-    background-image: url(/Photos/housepart.jpg);
+    background-image: url(Photos/housepart.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
